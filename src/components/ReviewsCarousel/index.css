@@ -1,0 +1,66 @@
+/* Write your code here */
+.review-app {
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* object-fit: contain; */
+  overflow-y: hidden;
+}
+.carousel {
+  display: flex;
+  min-height: 400px;
+  max-height: 550px;
+  min-width: 400px;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 500px;
+  text-align: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.main-heading {
+  color: #fff;
+  font-family: 'Roboto';
+}
+.user-name {
+  color: #fff;
+}
+.company-name {
+  font-size: 20px;
+}
+
+.user-image {
+  height: 150px;
+  width: 150px;
+}
+.change-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+.left-btn,
+.right-btn {
+  outline: none;
+  background: transparent;
+  border: none;
+}
+.left-arrow {
+  object-fit: contain;
+  height: 20px;
+  cursor: pointer;
+}
+.right-arrow {
+  object-fit: contain;
+  height: 20px;
+  cursor: pointer;
+}
+.description {
+  width: 80%;
+  color: #171f46;
+  font-family: 'Roboto';
+}
